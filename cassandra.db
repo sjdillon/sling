@@ -1,0 +1,6 @@
+{
+"dev":["devcas01","devcas02","devcas03"],
+"test":["testcas01","testcas02","testcas03"],
+"loadtest":["loadtestcas01","loadtestcas02","loadtestcas03","loadtestcas04"],
+"prod":["prodcas01","prodcas02","prodcas03","prodcas04","prodcas05","prodcas06"]
+}
