@@ -4,7 +4,7 @@
 #description: Command line utility to apply a build to cassandra
 #author: sjdillon
 #date: 20150307
-#usage: python sling.py -U <uname> -P <pw> -S loadtest -D \svn\Database\Cassandra\ChangeScripts\7_2\
+#usage: python sling.py -U <uname> -P <pw> -S loadtest -D \Database\Cassandra\ReleaseScripts\4_2\
 #python_version :2.7.7  
 #rules:
 #-validates: applied scripts match source control scripts
