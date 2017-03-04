@@ -7,31 +7,22 @@ Modeled after flyway*, this is a tool to manage applying changes to Cassandra. S
 *flyway does not currently support Cassandra
 
 # Features
-Validates applied scripts match source control scripts
-
-Applies new changes to the cluster
-
-Stops on exceptions and discrepancies between database and source control
-
-Reruns failures on next execution by default
-
-Source changes to previously applied changes need to be researched and rectified manually depending on the cause and impact
+Validates applied scripts match source control scripts  
+Applies new changes to the cluster  
+Stops on exceptions and discrepancies between database and source control  
+Reruns failures on next execution by default  
+Source changes to previously applied changes need to be researched and rectified manually depending on the cause and impact  
 
 
 # Usage
-command line 
+command line  
 python sling.py -h -U USERNAME -P PASSWORD -S SERVERS -D DIRECTORY -C CONFIG
 
--U USERNAME
-
--P PASSWORD
-
--S SERVERS key for the cluster list in the pickledb config file
-
--D DIRECTORY directory with files to apply
-
--C CONFIG pickledb config file with db connections
-
--I INFO_ONLY outputs applied and unapplied changes for build
+-U USERNAME  
+-P PASSWORD  
+-S SERVERS key for the cluster list in the pickledb config file  
+-D DIRECTORY directory with files to apply  
+-C CONFIG pickledb config file with db connections  
+-I INFO_ONLY outputs applied and unapplied changes for build  
 
 
